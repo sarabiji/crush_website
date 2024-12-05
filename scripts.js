@@ -6,6 +6,7 @@ function moveRandomE1(elm){
 
 const moveRandom = document.querySelector("#move-random");
 
-moveRandom.addEventListener("mouseenter", function (e){
-    moveRandomE1(e.target);
-})
+    moveRandom.addEventListener("mouseenter", function (e){
+        moveRandomE1(e.target);
+    })
+
